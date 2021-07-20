@@ -101,8 +101,39 @@ header .logo{
 
 
 
+/***************************************************/
+/***************************************************/
+/*                For Making Responsive            */
+/***************************************************/
 
 
+@media screen and (max-width:504px) and (min-width:320px) {
+    header {
+        width: 100%;
+    }
+    #article{
+        width: 100%;
+        padding: 0;
+    }
+    #myimage{
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width:1024px) and (min-width:480px) {
+    header {
+        width: 100%;
+        
+    }
+    #article{
+        width: 100%;
+        
+    }
+    #myimage{
+        width: 40%;
+    }
+}
 
 /***************************************************/
 /***************************************************/
